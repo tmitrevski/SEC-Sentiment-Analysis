@@ -11,6 +11,9 @@ file_path = Path("Resources/10K_10Q_List.csv")
 df = pd.read_csv(file_path)
 df.head()
 # %%
+reqd_Index = df[df['Form Type'] == '10-K'].index.tolist()
+print(type(reqd_Index[0]))
+# %%
 headers = {'user-agent': 'project_10k/0.0.1'}
 for index,filing in enumerate(df.Filename[242910:]):
     requestURL = filing
