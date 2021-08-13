@@ -7,5 +7,5 @@ This project looks at the contents of 10-K and 10-Q statements to determine if t
 ·  	This project then implements a deep RNN in order to predict prices and evaluates the Mean Square Error to check if the price prediction is accurate.
 
 
-Resources folder can be found at XXXX and all filed need to be unzipped and added to a google drive for use.
+Resources folder can be found at [this google drive link](https://drive.google.com/file/d/1YGEqfUb9tJOgh7KX518E4x-Y4ETk0N_f/view?usp=sharing) and all filea need to be unzipped and added to your own google drive for use.
 Model is contained in the SECNLP.ipynb file and must be run using a GPU version of Colab in order to be efficient.
